@@ -1,6 +1,5 @@
 import pandas as pd, numpy as np, sklearn.preprocessing as pp
 from sklearn.naive_bayes import GaussianNB
-from sklearn.metrics import confusion_matrix, accuracy_score
 from sklearn.model_selection import train_test_split, cross_val_score
 
 credit_data = pd.read_csv("C:\Code\Datasets\credit_data.csv")
